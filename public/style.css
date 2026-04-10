@@ -1,0 +1,66 @@
+body {
+    font-family: 'Poppins', sans-serif;
+    background: linear-gradient(135deg, #667eea, #764ba2);
+    margin: 0;
+    color: #333;
+}
+
+/* NAVBAR */
+nav {
+    background: rgba(0,0,0,0.6);
+    color: white;
+    padding: 15px 30px;
+    display: flex;
+    justify-content: space-between;
+    backdrop-filter: blur(10px);
+}
+
+nav a {
+    color: white;
+    margin-left: 15px;
+    text-decoration: none;
+}
+
+/* CONTAINER */
+.container {
+    padding: 30px;
+}
+
+/* GLASS CARD */
+.card {
+    background: rgba(255,255,255,0.15);
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 15px;
+    backdrop-filter: blur(10px);
+    box-shadow: 0 8px 20px rgba(0,0,0,0.2);
+    color: white;
+}
+
+/* BUTTON */
+button {
+    background: #00c6ff;
+    border: none;
+    padding: 8px 15px;
+    border-radius: 8px;
+    color: white;
+    cursor: pointer;
+}
+
+/* INPUTS */
+input, select {
+    padding: 8px;
+    margin: 5px 0;
+    border-radius: 5px;
+    border: none;
+}
+
+/* BOARD */
+.board {
+    display: flex;
+    gap: 20px;
+}
+
+.column {
+    flex: 1;
+}
